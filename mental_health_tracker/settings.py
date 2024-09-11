@@ -124,3 +124,5 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CSRF_TRUSTED_ORIGINS = ["http://localhost","http://127.0.0.1","http://pbp.cs.ui.ac.id/web/project/sean.farrel/mentalhealthtracker2", "https://pbp.cs.ui.ac.id/web/project/sean.farrel/mentalhealthtracker2"]
+
+# Nambahin akses URL
