@@ -80,6 +80,7 @@
 </div>
 
 <script>
+  
   function addMoodEntry() {
     fetch("{% url 'main:add_mood_entry_ajax' %}", {
       method: "POST",
@@ -96,7 +97,7 @@
   async function getMoodEntries(){
       return fetch("{% url 'main:show_json' %}").then((res) => res.json())
   }
-  
+
   async function refreshMoodEntries() {
     document.getElementById("mood_entry_cards").innerHTML = "";
     document.getElementById("mood_entry_cards").className = "";
